@@ -1,0 +1,61 @@
+/* Stylesheet dùng chung cho cả 3 trang HTML */
+
+/* Bước 3: Tạo kiểu cho thẻ body (họ phông chữ và kích thước phông chữ) */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 115%;
+  color: #111111;
+  margin: 0;
+  padding: 0;
+}
+
+/* Bước 4: Tạo kiểu cho thẻ header (màu nền) */
+header {
+  background-color: #d9e8f5;
+  padding: 20px;
+}
+
+/* Bước 5: Tạo kiểu cho thẻ nav (màu nền) */
+nav {
+  background-color: #b8d4ec;
+  padding: 12px;
+  text-align: center;
+}
+
+/* Bước 6: Tạo kiểu cho thẻ main (màu nền và kích thước phông chữ) */
+main {
+  background-color: #f9fbfd;
+  font-size: 105%;
+  padding: 20px;
+}
+
+/* Bước 7: Tạo kiểu cho thẻ footer (màu nền) */
+footer {
+  background-color: #d9e8f5;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Bước 8: Tạo kiểu cho thẻ li (thuộc tính hiển thị và chiều rộng) */
+li {
+  display: inline-block;
+  width: 28%;
+}
+
+/* Bước 9: Tạo kiểu cho thẻ h1 (căn chỉnh văn bản, họ phông chữ và màu sắc) */
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #0b2545;
+}
+
+/* Bước 10: Tạo kiểu cho thẻ p (chiều cao dòng) */
+p {
+  line-height: 1.6;
+}
+
+/* Đảm bảo liên kết có độ tương phản màu sắc cao (Vượt qua 100% kiểm tra WAVE) */
+a {
+  color: #002855;
+  font-weight: bold;
+}
